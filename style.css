@@ -1,0 +1,47 @@
+.youtube_logo img {
+    width: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.name {
+    color: rgb(245, 238, 238);
+    background-color: rgb(235, 52, 52);
+    width: 25px;
+    text-align: center;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 1px;
+    font-size: 30px;
+
+}
+
+.left-nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 550px;
+    height: 30px;
+}
+
+.right-nav-bar {
+    display: flex;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+}
+
+.left-nav-bar .material-icons{
+    margin-left: 20px;
+    margin-right: 20px;
+}
