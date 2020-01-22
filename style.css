@@ -50,13 +50,14 @@ main iframe {
     width: 960px; 
     height: 515px;
     margin-top: 25px;
-    margin-left: 100px;
+    margin-left: 80px;
+    border: 0;
 
 }
 
 main .main_footer {
     width: 960px;
-    margin-left: 100px;
+    margin-left: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,7 +74,7 @@ main .main_footer {
 
 .avatar_and_subscriber_btn {
     width: 960px;
-    margin-left: 100px;
+    margin-left: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,4 +87,44 @@ main .main_footer {
 .subscriber_left button {
     background-color: rgb(209, 28, 28);
     color: rgb(250, 246, 246);
+    
+}
+
+aside .aside_avatar img {
+    width: 200px;
+    height: 100px;
+}
+
+.aside_avatar {
+    margin-left: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details h4 {
+    margin-left: 20px;
+}
+
+.details h5 {
+    margin-left: 20px;
+}
+
+.auto_play {
+    display: flex;
+    justify-content: space-between;
+}
+
+#auto_play {
+    display: flex;
+    align-items: center;
+}
+
+#auto_play h4 {
+    margin-right: 10px;
 }
