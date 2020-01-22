@@ -65,6 +65,11 @@ main .main_footer {
 
 .main_menu_right_icons {
     display: flex;
+    align-items: center;
+}
+
+.main_menu_right_icons .material-icons {
+    margin-left: 10px;
 }
 
 .avatar_and_subscriber_btn img {
