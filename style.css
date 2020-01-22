@@ -45,3 +45,45 @@ form {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+main iframe {
+    width: 960px; 
+    height: 515px;
+    margin-top: 25px;
+    margin-left: 100px;
+
+}
+
+main .main_footer {
+    width: 960px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_menu_right_icons {
+    display: flex;
+}
+
+.avatar_and_subscriber_btn img {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.avatar_and_subscriber_btn {
+    width: 960px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscriber_left {
+    display: flex;
+}
+
+.subscriber_left button {
+    background-color: rgb(209, 28, 28);
+    color: rgb(250, 246, 246);
+}
