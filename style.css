@@ -51,7 +51,7 @@ main iframe {
     height: 515px;
     margin-top: 25px;
     margin-left: 80px;
-
+    border: 0;
 }
 
 main .main_footer {
